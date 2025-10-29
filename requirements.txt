@@ -6,5 +6,4 @@ joblib
 shap
 lime
 matplotlib
-torch
-tabpfn
+catboost
