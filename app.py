@@ -8,9 +8,9 @@ import os
 # ==========================================
 # === FILE PATHS ===========================
 # ==========================================
-MODEL_PATH = "catboost_model.pkl"
-SHAP_PATH = "catboost_shap_values.pkl"
-LIME_PATH = "catboost_lime_values.pkl"
+MODEL_PATH = "TabPFN_model.pkl"
+SHAP_PATH = "TabPFN_shap_values.pkl"
+LIME_PATH = "TabPFN_lime_values.pkl"
 XTRAIN_PATH = "X_train.csv"
 
 # ==========================================
@@ -230,3 +230,4 @@ if __name__ == "__main__":
                 st.session_state['shap_data'],
                 st.session_state['lime_explainer']
             )
+
