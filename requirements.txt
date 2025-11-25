@@ -1,3 +1,4 @@
+TabPFN
 streamlit
 pandas
 numpy
@@ -7,3 +8,4 @@ shap
 lime
 matplotlib
 catboost
+
